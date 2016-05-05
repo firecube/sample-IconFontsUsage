@@ -1,0 +1,50 @@
+{
+  "description": "A plugin for the NativeScript framework implementing multiple image picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/nativescript-imagepicker.git"
+  },
+  "name": "nativescript-imagepicker",
+  "version": "0.0.6",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "dependencies": {
+    "tns-core-modules": "2.0.0"
+  },
+  "main": "viewmodel.js",
+  "bugs": {
+    "url": "https://github.com/NativeScript/nativescript-imagepicker/issues"
+  },
+  "homepage": "https://github.com/NativeScript/nativescript-imagepicker#readme",
+  "_id": "nativescript-imagepicker@0.0.6",
+  "_shasum": "cbdd562de226a769d39da602e61d672291cb4530",
+  "_resolved": "https://registry.npmjs.org/nativescript-imagepicker/-/nativescript-imagepicker-0.0.6.tgz",
+  "_from": "nativescript-imagepicker@latest",
+  "scripts": {},
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "panayot.cankov",
+    "email": "panayot.cankov@telerik.com"
+  },
+  "dist": {
+    "shasum": "cbdd562de226a769d39da602e61d672291cb4530",
+    "tarball": "https://registry.npmjs.org/nativescript-imagepicker/-/nativescript-imagepicker-0.0.6.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "panayot.cankov",
+      "email": "panayot.cankov@telerik.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-imagepicker-0.0.6.tgz_1461755690177_0.6435477549675852"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

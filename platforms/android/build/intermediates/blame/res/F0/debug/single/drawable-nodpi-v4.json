@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/niliev/Desktop/issues/issue_2055/platforms/android/build/intermediates/res/merged/F0/debug/drawable-nodpi-v4/splashscreen.9.png",
+        "source": "/Users/niliev/Desktop/issues/issue_2055/platforms/android/src/main/res/drawable-nodpi/splashscreen.9.png"
+    },
+    {
+        "merged": "/Users/niliev/Desktop/issues/issue-2055/platforms/android/build/intermediates/res/merged/F0/debug/drawable-nodpi-v4/splashscreen.9.png",
+        "source": "/Users/niliev/Desktop/issues/issue-2055/platforms/android/src/main/res/drawable-nodpi/splashscreen.9.png"
+    }
+]

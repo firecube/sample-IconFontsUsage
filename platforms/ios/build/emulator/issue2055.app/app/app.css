@@ -1,0 +1,10 @@
+﻿.icon {
+   font-family: 'IcoMoon-Free';
+   font-size: 48;
+}
+
+.bordered {
+    border-width: 4;
+    border-color: #0000FF;
+    border-radius: 20;
+}

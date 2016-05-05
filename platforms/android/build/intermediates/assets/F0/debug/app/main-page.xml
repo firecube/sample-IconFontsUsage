@@ -1,0 +1,24 @@
+<!--<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <StackLayout>
+    <Label text="issue 2055" class="title"/>
+    <ListView items="{{ glyphs }}"  loaded="onLoaded" itemLoading="onItemLoading" itemTap="onItemTap">
+        <ListView.itemTemplate>
+            <StackLayout>
+                <Label text="{{ icon }}" textWrap="true" class="icon" />
+                <Label text="{{ text }}" textWrap="true" />      
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView> 
+  </StackLayout>
+</Page>-->
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <ListView items="{{ glyphs }}">
+        <ListView.itemTemplate>
+            <StackLayout orientation="horizontal">
+                <Label text="{{ icon }}" class="icon"/>
+                <Label text="{{ code }}" />
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

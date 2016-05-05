@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" loaded="pageLoaded">
+    <drawer:RadSideDrawer id="drawer1">
+        <drawer:RadSideDrawer.mainContent>
+            <!-- Place your page content here -->
+             <StackLayout>
+                <ListView items="{{ glyphs }}">
+                    <ListView.itemTemplate>
+                        <StackLayout orientation="horizontal">
+                            <Label text="{{ icon }}" class="icon"/>
+                            <Label text="{{ code }}" />
+                        </StackLayout>
+                    </ListView.itemTemplate>
+                </ListView>
+            </StackLayout> 
+        </drawer:RadSideDrawer.mainContent>
+        
+        <drawer:RadSideDrawer.drawerContent>
+        </drawer:RadSideDrawer.drawerContent>
+    </drawer:RadSideDrawer>
+</Page>
