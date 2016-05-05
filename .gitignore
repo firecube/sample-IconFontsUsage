@@ -26,6 +26,9 @@ build/Release
 # Dependency directory
 node_modules
 
+# NativeScript platforms
+platforms
+
 # Optional npm cache directory
 .npm
 
