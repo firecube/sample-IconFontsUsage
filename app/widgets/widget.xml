@@ -1,0 +1,10 @@
+<StackLayout>
+    <ListView items="{{ glyphs }}">
+        <ListView.itemTemplate>
+            <StackLayout orientation="horizontal">
+                <Label text="{{ icon }}" class="icon"/>
+                <Label text="{{ code }}" />
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</StackLayout>

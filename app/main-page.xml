@@ -1,10 +1,14 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" loaded="pageLoaded">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+    xmlns:drawer="nativescript-telerik-ui/sidedrawer" 
+    loaded="pageLoaded"
+    xmlns:Widgets="widgets">
     <drawer:RadSideDrawer id="drawer1">
         <drawer:RadSideDrawer.mainContent>
             <!-- Place your page content here -->
             <StackLayout>
                  <Label text="Slide to show drawer with IconMoon-Free" textWrap="true" />
                  <Button text="go to subpage" tap="onTap" />
+                 <Widgets:widget />
             </StackLayout>
             
         </drawer:RadSideDrawer.mainContent>
